@@ -1,9 +1,9 @@
 {
   "name": "project",
   "private": true,
-  "homepage": "https://damir-ux.github.io/project",
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://damir-ux.github.io/project",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

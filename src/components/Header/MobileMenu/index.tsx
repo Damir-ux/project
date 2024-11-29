@@ -22,7 +22,7 @@ export const MobileMenu = () => {
             <Link to="/project/facts" onClick={handleLinkClick}>
               Facts
             </Link>
-            <Link to="/projectrecipes" onClick={handleLinkClick}>
+            <Link to="/project/recipes" onClick={handleLinkClick}>
               Recipes
             </Link>
             <Link to="/project/combinations" onClick={handleLinkClick}>

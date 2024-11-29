@@ -8,7 +8,7 @@ type Props = {
 };
 export const RecipeCard: FC<Props> = ({ data }) => {
   return (
-    <Link to={`/project/recipe/${data.recipeId}`} className={styles.wrapper}>
+    <Link to={`/recipe/${data.recipeId}`} className={styles.wrapper}>
       <img src={data.imageUrl} alt="" />
       <div className={styles.info}>
         <h3>{data.name}</h3>
